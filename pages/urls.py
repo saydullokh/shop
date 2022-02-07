@@ -3,6 +3,6 @@ from .views import HomePageView
 
 app_name = 'pages'
 
-urlpatterns = {
+urlpatterns = [
     path('', HomePageView.as_view(), name='home')
-}
+]
