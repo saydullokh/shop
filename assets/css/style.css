@@ -1276,7 +1276,7 @@ ol {
 	padding-top: 15px;
 }
 
-.shop__sidebar__size label {
+.shop__sidebar__size a {
 	color: #111111;
 	font-size: 15px;
 	font-weight: 700;
@@ -1289,13 +1289,13 @@ ol {
 	cursor: pointer;
 }
 
-.shop__sidebar__size label.active {
+.shop__sidebar__size a.active {
 	background: #111111;
 	color: #ffffff;
 	border-color: #111111;
 }
 
-.shop__sidebar__size label input {
+.shop__sidebar__size a input {
 	position: absolute;
 	visibility: hidden;
 }
@@ -1304,7 +1304,7 @@ ol {
 	padding-top: 15px;
 }
 
-.shop__sidebar__color label {
+.shop__sidebar__color a {
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
@@ -1315,7 +1315,7 @@ ol {
 	cursor: pointer;
 }
 
-.shop__sidebar__color label.c-1 {
+.shop__sidebar__color a.c-1 {
 	background: #0b090c;
 }
 
@@ -1351,7 +1351,7 @@ ol {
 	background: #ffffff;
 }
 
-.shop__sidebar__color label:after {
+.shop__sidebar__color a:after {
 	position: absolute;
 	left: -3px;
 	top: -3px;
@@ -1362,7 +1362,7 @@ ol {
 	border-radius: 50%;
 }
 
-.shop__sidebar__color label input {
+.shop__sidebar__color a input {
 	position: absolute;
 	visibility: hidden;
 }
@@ -3848,4 +3848,12 @@ ol {
 	.categories__text:before {
 		height: 250px;
 	}
+}
+
+.my-colors {
+	height: 36px;
+	width: 36px;
+	border: 1px solid #e5e5e5;
+	content: "";
+	border-radius: 50%;
 }
